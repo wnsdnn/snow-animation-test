@@ -17,6 +17,6 @@ window.onload = function () { //window load완료시 시작
         })
         setTimeout(function(){ //settimeout:지속시간마다 함수 실행
             snow.remove()
-        },num)
+        },num);
     },100)
 }
