@@ -15,7 +15,7 @@ window.onload = function () { //window load완료시 시작
             duration:num, // 떨어질 시간
             easing:'ease-out', // 떨어지는 효과 (ease-out: 빠르게 --> 느리게)
         })
-        setTimeout(function(){ //settimeout(실행함수, 시간) -지속시간마다 함수 실행
+        setTimeout(function(){ //settimeout:지속시간마다 함수 실행
             snow.remove()
         },num)
     },100)
